@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Oswald", sans-serif;
+    background-color: #f0f0f0;
+}
+/* Navbar */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    box-shadow: 3px 7px 10px rgb(95 95 95);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.navbar ul { 
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 3rem;
+}
+.navbar ul li a { 
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 900;
+    transition: all 0.7s;
+}
+.navbar ul li a:hover { 
+    color: #ff8800;
+}
+/* Hero Section */
+.heroseciton {
+    display: block;
+    text-align: center;
+    margin: 2rem 0;
+}
+.heroseciton h1 {
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+.heroseciton p {
+    max-width: 100vh;
+    display: inline-flex;
+    padding: 23px;
+}
+/* Biografi */
+.biografi { 
+    display: block;
+    padding: 1rem;
+}
+.title { 
+    font-size: 1.6rem;
+    color: black;
+    text-align: center;
+}
+.biografi .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.biografi .content img { 
+    width: 100%;
+}
+.biografifirst h3 {
+    padding: 1rem 0;
+}
+.artifacts {
+    padding: 2rem;
+}
+.artifacts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.artifacts img {
+    width: 100%;
+}
+
+footer{
+    padding: 2rem;
+    text-align: center;
+    background-color: #333;
+    color: #f0f0f0;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
